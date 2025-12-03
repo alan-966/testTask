@@ -16,6 +16,7 @@
 		9D2609D31283437CBAA880ED /* Inter-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7DE582AC1C3E4E65871E8704 /* Inter-Regular.otf */; };
 		E6B59971FEEF4141B3028DB7 /* Inter-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48FCC0B438364D3687E74DDD /* Inter-Bold.otf */; };
 		ECFFEFEB8E9772C70D19FF8F /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		F213160F1A3844FEA9D81051 /* Inter-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CC8813DC2C5449A89C6C891C /* Inter-SemiBold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = testTask/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D82CBBA41C4A4BDCB3CA696F /* Inter-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Medium.otf"; path = "../src/assets/fonts/Inter-Medium.otf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		CC8813DC2C5449A89C6C891C /* Inter-SemiBold.otf */ = {isa = PBXFileReference; name = "Inter-SemiBold.otf"; path = "../src/assets/fonts/Inter-SemiBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				7FD8649CAEF048AC8D831FB8 /* Inter-Light.otf */,
 				D82CBBA41C4A4BDCB3CA696F /* Inter-Medium.otf */,
 				7DE582AC1C3E4E65871E8704 /* Inter-Regular.otf */,
+				CC8813DC2C5449A89C6C891C /* Inter-SemiBold.otf */,
 			);
 			name = Resources;
 			path = "";
@@ -186,6 +189,7 @@
 				5AA33AADC02E4E08B8F1CA38 /* Inter-Light.otf in Resources */,
 				30971D3A198A4F718DE9359F /* Inter-Medium.otf in Resources */,
 				9D2609D31283437CBAA880ED /* Inter-Regular.otf in Resources */,
+				F213160F1A3844FEA9D81051 /* Inter-SemiBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

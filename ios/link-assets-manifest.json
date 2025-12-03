@@ -16,6 +16,10 @@
     {
       "path": "src/assets/fonts/Inter-Regular.otf",
       "sha1": "4786a0feb4c853189782709a5ac5b5dfb696942b"
+    },
+    {
+      "path": "src/assets/fonts/Inter-SemiBold.otf",
+      "sha1": "ce2ccd0b91ffb1f8c894b6d60f21443e0769217c"
     }
   ]
 }

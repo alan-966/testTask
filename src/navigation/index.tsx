@@ -2,6 +2,7 @@ import { Analytics, Chats, History, Home, Payments } from '../assets/svg';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
 import { HomeScreen } from '../screens';
+import { FONTS } from '../constants';
 import { FC } from 'react';
 
 const Tab = createBottomTabNavigator();
@@ -17,6 +18,10 @@ const Navigation: FC = () => {
 					tabBarStyle: {
 						backgroundColor: '#060503',
 						borderColor: '#060503',
+					},
+					tabBarLabelStyle: {
+						fontFamily: FONTS.regular,
+						fontSize: 12,
 					},
 				}}
 			>

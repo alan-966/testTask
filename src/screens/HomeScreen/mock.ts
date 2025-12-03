@@ -1,3 +1,5 @@
+import { Mastercard } from '../../assets/svg';
+
 export const MOCK_DATA = [
 	{
 		title: 'Today',
@@ -35,5 +37,24 @@ export const MOCK_DATA = [
 				date: 'Jun 8, 08:53',
 			},
 		],
+	},
+];
+
+export const MOCK_CARDS = [
+	{
+		id: '1',
+		Icon: Mastercard,
+		bgSource: require('../../assets/img/CardBG1.jpg'),
+		sum: '$4,098.12',
+		type: 'Debit',
+		cardNumber: '•• 4385',
+	},
+	{
+		id: '2',
+		Icon: Mastercard,
+		bgSource: require('../../assets/img/CardBG2.jpg'),
+		sum: '$14.71',
+		type: 'Virtual',
+		cardNumber: '•• 9081',
 	},
 ];
