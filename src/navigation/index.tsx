@@ -1,7 +1,7 @@
 import { Analytics, Chats, History, Home, Payments } from '../assets/svg';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
-import { HomeScreen } from '../screens';
+import { HomeScreen, NotificationsScreen } from '../screens';
 import { FONTS } from '../constants';
 import { FC } from 'react';
 
@@ -32,7 +32,7 @@ const Navigation: FC = () => {
 				/>
 				<Tab.Screen
 					name='Payments'
-					component={HomeScreen}
+					component={NotificationsScreen}
 					options={{ tabBarIcon: ({ color }) => <Payments color={color} /> }}
 				/>
 				<Tab.Screen

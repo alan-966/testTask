@@ -12,3 +12,5 @@ export { default as Travel } from './Travel.svg';
 export { default as Delivery } from './Delivery.svg';
 export { default as Bonuses } from './Bonuses.svg';
 export { default as Support } from './Support.svg';
+export { default as Info } from './Info.svg';
+export { default as Back } from './Back.svg';
