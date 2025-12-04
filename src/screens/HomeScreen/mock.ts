@@ -58,3 +58,56 @@ export const MOCK_CARDS = [
 		cardNumber: '•• 9081',
 	},
 ];
+
+export const MOCK_NOTIFICATIONS = [
+	{
+		title: 'Today, 17 JunE',
+		data: [
+			{
+				id: '1',
+				imgSource: require('../../assets/img/Avatar2.jpg'),
+				title: 'Sent to •• 2041',
+				sum: '-$14.62',
+				description: 'Debit •• 4385\n$3,987.5',
+				date: '16 June 2025, 06:18· Payments',
+				isSeen: false,
+			},
+		],
+	},
+	{
+		title: 'YESTERDay, 16 JunE',
+		data: [
+			{
+				id: '2',
+				imgSource: require('../../assets/img/Operation1.png'),
+				title: 'See our limited offer!',
+				description: 'Would you like to visit new countries? Maybe it’s your time!',
+				date: '16 June 2025, 23:08 · Travel',
+				isSeen: true,
+			},
+			{
+				id: '3',
+				imgSource: require('../../assets/img/Operation2.png'),
+				title: 'Sent to •• 2041',
+				sum: '-$14.62',
+				description: 'Debit •• 4385\n$3,987.5',
+				date: '16 June 2025, 06:18· Payments',
+				isSeen: true,
+			},
+		],
+	},
+	{
+		title: '24 MARCH, 2025',
+		data: [
+			{
+				id: '4',
+				imgSource: require('../../assets/img/Operation3.png'),
+				title: 'New login into account',
+				description:
+					'You have logged in from a new location:\niOS 26.0.1 · 109.255.84.7 · Spain',
+				date: '24 March 2025, 15:44 · Security',
+				isSeen: true,
+			},
+		],
+	},
+];

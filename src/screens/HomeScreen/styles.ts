@@ -19,9 +19,9 @@ export default StyleSheet.create({
 		fontFamily: FONTS.medium,
 	},
 	itemSep: {
-		height: 4,
+		marginTop: 4,
 	},
 	sectionFooter: {
-		height: 24,
+		marginTop: 24,
 	},
 });

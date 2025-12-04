@@ -1,4 +1,11 @@
-import { Image, ImageSourcePropType, Text, TouchableOpacity, View } from 'react-native';
+import {
+	Image,
+	ImageSourcePropType,
+	Text,
+	TouchableOpacity,
+	TouchableOpacityProps,
+	View,
+} from 'react-native';
 import { FC } from 'react';
 import styles from './styles';
 
@@ -31,7 +38,7 @@ const OperationCard: FC<Props> = ({
 
 export default OperationCard;
 
-type Props = {
+type Props = TouchableOpacityProps & {
 	name: string;
 	avatarSource?: ImageSourcePropType;
 	statusName: string;
